@@ -8,13 +8,37 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="PrashiWaveZ home">Prashi<span>WaveZ</span></a>
-    <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav id="navigation" aria-label="Main navigation">
-      <a href="#collections">Collections</a><a href="#about">Our Story</a><a href="#contact">Contact</a>
-    </nav>
-  </header>
+ <header class="site-header">
+
+  <!-- Company Logo -->
+  <a href="#home" class="brand">
+    <img
+      src="images/logo.png"
+      alt="PrashiWaveZ Fashion Design"
+      class="brand-logo"
+    />
+  </a>
+
+  <!-- Mobile Menu -->
+  <button
+    class="menu-toggle"
+    type="button"
+    aria-label="Toggle navigation"
+    aria-controls="main-nav"
+    aria-expanded="false"
+  >
+    &#9776;
+  </button>
+
+  <!-- Navigation -->
+  <nav id="main-nav">
+    <a href="#home">Home</a>
+    <a href="#collections">Collections</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+</header>
   <main>
     <section class="hero" id="home">
       <div class="hero-inner"><p class="eyebrow">A NEW EXPRESSION OF STYLE</p><h1>Wear your<br><em>own story.</em></h1><p>Contemporary fashion with a timeless point of view. Discover the world of PrashiWaveZ.</p><a class="button" href="#collections">Explore Our Vision <span aria-hidden="true">→</span></a></div>
