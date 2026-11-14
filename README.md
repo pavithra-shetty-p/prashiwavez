@@ -1,21 +1,38 @@
 # PrashiWaveZ — Fashion Design Website
 
-A responsive, static startup landing page made with HTML, CSS and JavaScript. No build tools required.
+A responsive, static website for PrashiWaveZ, an emerging fashion design label. The website introduces the brand, presents its creative direction, and provides a point of contact for enquiries and collaborations.
 
-## Preview locally
-Open `index.html` in your browser, or from this directory run `python3 -m http.server 8000` and visit http://localhost:8000.
+## Technology
 
-## Customize before launch
-1. Replace the placeholder email in `script.js` with your real business email.
-2. Update the brand story, proposed collections and contact details in `index.html`.
-3. Replace CSS concept art with original product photography when ready.
-4. Review copy and ensure all claims accurately reflect your business.
+The website uses HTML, CSS, and JavaScript. No build tools or package installation are required.
 
-## Deploy free on GitHub Pages
-1. Create a **public** GitHub repository named `prashiwavez`.
-2. Upload `index.html`, `styles.css`, `script.js` and `README.md` to the root of its default branch (`main`).
-3. Open repository **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, and save.
-5. Wait for deployment. Your public URL is `https://YOUR-USERNAME.github.io/prashiwavez/`.
+## Project Structure
 
-Optional: Buy a domain separately and configure it in GitHub Pages under **Custom domain**, then follow GitHub's DNS instructions. Custom domains are not free.
+- `index.html` — Page structure and website content.
+- `styles.css` — Layout, visual styling, and responsive design.
+- `script.js` — Contact email configuration and interface interactions.
+- `images/` — Brand imagery and logo assets.
+
+## Local Preview
+
+Open `index.html` directly in a browser. Alternatively, with Python 3 installed, run the following command from the project directory:
+
+```sh
+python3 -m http.server 8000
+```
+
+Then visit [the local preview](http://localhost:8000).
+
+## Content and Configuration
+
+Before publishing the website:
+
+1. Set `businessEmail` in `script.js` to the official business email address and update the fallback email link in `index.html`.
+2. Review the brand description, collection concepts, and contact information in `index.html`.
+3. Replace concept artwork with approved product photography when available.
+4. Remove the email configuration notice from the contact section once the address is configured.
+5. Verify that all published content accurately represents the business and its current offerings.
+
+## Project Status
+
+The website currently presents the brand and its collection concepts. Product availability and ordering details have not yet been announced.
